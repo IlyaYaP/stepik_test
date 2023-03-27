@@ -13,6 +13,8 @@ def test_presence_cart_button(browser):
     time.sleep(10)
 
     button_name = browser.find_element(By.CSS_SELECTOR, '.btn-add-to-basket').text
+
+    assert 
     
 
 if __name__ == "__main__":
