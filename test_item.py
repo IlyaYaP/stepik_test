@@ -14,7 +14,7 @@ def test_presence_cart_button(browser):
 
     button_name = browser.find_element(By.CSS_SELECTOR, '.btn-add-to-basket').text
 
-    assert 
+    assert button_name == f'Ajouter au panier', f'Проверьте параметризацию языка или корректность вводимой команды'
     
 
 if __name__ == "__main__":
