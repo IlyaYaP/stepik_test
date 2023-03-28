@@ -3,3 +3,10 @@
 
 - Устанавливаем зависимости **python -m pip install -r requirements.txt**
 - Запускаем тесты с параматрами **pytest -s -v --browser_name=firefox test_item.py**
+
+```
+Параметры:
+--browser_name=firefox
+--browser_name=chrome
+--language=fr
+```
