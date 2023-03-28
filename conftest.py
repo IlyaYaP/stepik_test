@@ -21,6 +21,7 @@ def browser(request):
     elif browser_name == 'firefox':
         print("\nstart firefox browser for test..")
         options_firefox = webdriver.FirefoxOptions()
+        options_firefox.binary_location = 'C:/Program Files/Mozilla Firefox/firefox.exe'
         options_firefox.set_preference("intl.accept_languages", user_language)
         browser = webdriver.Firefox(options=options_firefox)
     else:
